@@ -22,11 +22,11 @@ Foram estabelecidos os relacionamentos entre essas entidades, de modo a represen
 
 ## Diagrama de Modelagem de Dados
 
-O diagrama de modelagem de dados das Lojas UVV está disponível no repositório. Para acessá-lo, consulte o arquivo [Diagrama_Modelagem_Dados.png](https://github.com/RamsesMartins/uvv_bd1_cc1n/blob/main/PSET1/pset1.pdf) na pasta PSET1.
+O diagrama de modelagem de dados das Lojas UVV está disponível no repositório. Para acessá-lo, consulte o arquivo [Diagrama_Modelagem_Dados.png](https://github.com/RamsesMartins/uvv_bd1_cc1n/blob/main/PSET1/lojas-uvv.png) na pasta PSET1.
 
 ## Orientações da Atividade
 
-As orientações detalhadas para a realização desta atividade estão disponíveis no repositório. Para acessá-las, consulte o arquivo [Orientacoes_PSET1.pdf](https://github.com/RamsesMartins/uvv_bd1_cc1n/blob/main/PSET1/lojas-uvv.png) na pasta PSET1.
+As orientações detalhadas para a realização desta atividade estão disponíveis no repositório. Para acessá-las, consulte o arquivo [Orientacoes_PSET1.pdf](https://github.com/RamsesMartins/uvv_bd1_cc1n/blob/main/PSET1/pset1.pdf) na pasta PSET1.
 
 ## Script SQL para Geração das Tabelas
 
