@@ -227,6 +227,8 @@ ALTER TABLE lojas.envios ADD CONSTRAINT lojas_envios_fk
     ON DELETE NO ACTION
     ON UPDATE NO ACTION
     NOT DEFERRABLE;
+    
+ ALTER  TABLE lojas.envios ADD CONSTRAINT lojas_envios_verifica_status CHECK (status in ('CRIADO', 'ENVIADO', 'TRANSITO', 'ENTREGUE'));
 
 --Adicionando a restrição de chave estrangeira (loja_id) na tabela pedidos
 ALTER TABLE lojas.pedidos ADD CONSTRAINT lojas_pedidos_fk
