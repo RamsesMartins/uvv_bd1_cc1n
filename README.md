@@ -39,16 +39,6 @@ O repositório está organizado da seguinte maneira:
 
 Você pode navegar pelas pastas do repositório para encontrar os arquivos e informações relevantes para cada atividade. Cada pasta contém os arquivos necessários para a realização das tarefas, incluindo instruções e recursos adicionais, quando aplicável.
 
-Sinta-se à vontade para explorar o conteúdo deste repositório, baixar os arquivos que desejar e utilizá-los como referência. No entanto, lembre-se de sempre respeitar as políticas de integridade acadêmica da sua instituição de ensino.
-
-## Contribuindo
-
-Caso você seja um aluno da UVV e queira contribuir para este repositório, fique à vontade para enviar as suas soluções e melhorias. Basta fazer um *fork* deste repositório, criar uma nova branch para a sua contribuição e, em seguida, fazer um *pull request* para que as suas alterações sejam avaliadas e incorporadas ao repositório principal.
-
-## Contato
-
-Se você tiver alguma dúvida ou sugestão relacionada ao conteúdo deste repositório, sinta-se à vontade para entrar em contato comigo por meio do GitHub.
-
-Espero que este repositório seja útil para o seu aprendizado e sucesso acadêmico!
+Sinta-se à vontade para explorar o conteúdo deste repositório, baixar os arquivos que desejar e utilizá-los como referência. No entanto, lembre-se de sempre respeitar as políticas de integridade acadêmica da UVV
 
 **Atenção:** Respeite as diretrizes acadêmicas e não utilize este repositório para fins de plágio ou violação de integridade acadêmica. Este repositório tem como objetivo fornecer um recurso de aprendizado e referência para auxiliar no desenvolvimento das atividades propostas, mas é importante que você siga as políticas e diretrizes da sua instituição de ensino ao realizar seus próprios trabalhos.
