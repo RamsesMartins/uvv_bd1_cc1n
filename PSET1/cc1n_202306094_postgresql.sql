@@ -286,6 +286,6 @@ NOT DEFERRABLE;
 
 ALTER  TABLE lojas.produtos ADD CONSTRAINT lojas_produtos_verifica_preco_unitario CHECK (preco_unitario >= 0);
 
-ALTER  TABLE lojas.pedidos_itens ADD CONSTRAINT lojas_pedidos_itens _verifica_preco_unitario CHECK (preco_unitario >= 0);
+ALTER  TABLE lojas.pedidos_itens ADD CONSTRAINT lojas_pedidos_itens_verifica_preco_unitario CHECK (preco_unitario >= 0);
 
 \dt lojas.*
