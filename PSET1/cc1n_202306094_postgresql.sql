@@ -230,8 +230,8 @@ ALTER TABLE lojas.envios ADD CONSTRAINT lojas_envios_fk
     ON DELETE NO ACTION
     ON UPDATE NO ACTION
     NOT DEFERRABLE;
-    
- ALTER  TABLE lojas.envios ADD CONSTRAINT lojas_envios_verifica_status CHECK (status in ('CRIADO', 'ENVIADO', 'TRANSITO', 'ENTREGUE'));
+--Adicionando CHECK CONSTRAINT para STATUS    
+ALTER  TABLE lojas.envios ADD CONSTRAINT lojas_envios_verifica_status CHECK (status in ('CRIADO', 'ENVIADO', 'TRANSITO', 'ENTREGUE'));
 
 --Adicionando a restrição de chave estrangeira (loja_id) na tabela pedidos
 ALTER TABLE lojas.pedidos ADD CONSTRAINT lojas_pedidos_fk
@@ -241,6 +241,8 @@ ON DELETE NO ACTION
 ON UPDATE NO ACTION
 NOT DEFERRABLE;
 
+ALTER  TABLE lojas.pedidos ADD CONSTRAINT lojas_pedidos_verifica_status CHECK (status in ('CANCELADO', 'COMPLETO', 'ABERTO', 'PAGO', 'REEMBOLSADO', 'ENVIADO'));
+
 --Adicionando a restrição de chave estrangeira (loja_id) na tabela estoques
 ALTER TABLE lojas.estoques ADD CONSTRAINT lojas_estoques_fk
 FOREIGN KEY (loja_id)
@@ -248,6 +250,7 @@ REFERENCES lojas.lojas (loja_id)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION
 NOT DEFERRABLE;
+ALTER  TABLE lojas.estoques ADD CONSTRAINT lojas_estoques_verifica_quantidade CHECK (quantidade >= 0);
 
 --Adicionando a restrição de chave estrangeira (cliente_id) na tabela envios
 ALTER TABLE lojas.envios ADD CONSTRAINT clientes_envios_fk
@@ -280,5 +283,9 @@ REFERENCES lojas.envios (envio_id)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION
 NOT DEFERRABLE;
+
+ALTER  TABLE lojas.produtos ADD CONSTRAINT lojas_produtos_verifica_preco_unitario CHECK (preco_unitario >= 0);
+
+ALTER  TABLE lojas.pedidos_itens ADD CONSTRAINT lojas_pedidos_itens _verifica_preco_unitario CHECK (preco_unitario >= 0);
 
 \dt lojas.*
